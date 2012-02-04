@@ -89,7 +89,6 @@ class PanelCtrl:
                     wx.SystemSettings_GetColour(wx.SYS_COLOUR_WINDOW))
                 self.edit.Refresh()
             else:
-                print val
                 raise
         except:
             self.edit.SetBackgroundColour("pink")
