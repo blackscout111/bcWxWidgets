@@ -3,7 +3,7 @@ import wx
 class PanelCtrl:
     """ A group of objects for a control panel pane
 
-        This is just a wrapper object the objects inside of a control panel.
+        This is just a wrapper object for the objects inside of a control panel.
         Therefore its parent object should be a wx.Panel.
 
         It has a label for the control (static text), a slider, and an editable
